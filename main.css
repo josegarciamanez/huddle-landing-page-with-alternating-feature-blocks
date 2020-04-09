@@ -1,3 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css');
+
+:root {
+  --primary: #ff52bf;
+  --neutral1: #ebfbff;
+  --neutral2: #00252e;
+  --neutral3: #808d99;
+}
+
+html {
+  font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+p,
+span,
+a,
+button {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -5,4 +37,70 @@
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img.header-logo {
+  width: 100px;
+}
+
+.header-button {
+  padding: 5px 25px;
+  border: none;
+  border-radius: 25px;
+  font-weight: 700;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  font-size: 0.6rem;
+}
+
+div.hero {
+  padding: 20px 10px;
+  background-image: url('./images/bg-hero-mobile.svg');
+  text-align: center;
+}
+
+.title {
+  font-size: 1.4rem;
+  color: var(--neutral2);
+}
+
+.hero-text {
+  color: var(--neutral2);
+  line-height: 1.5;
+}
+
+button.cta {
+  padding: 20px 50px;
+  border: none;
+  font-size: 0.7rem;
+  border-radius: 35px;
+  font-weight: 700;
+  background: var(--primary);
+  color: white;
+  opacity: 0.7;
+}
+
+img.mockups {
+  width: 80%;
+}
+
+.mt-5 {
+  margin-top: 5rem;
+}
+.mt-4 {
+  margin-top: 4rem;
+}
+.mt-3 {
+  margin-top: 3rem;
+}
+.mt-2 {
+  margin-top: 2rem;
+}
+.mt-1 {
+  margin-top: 1rem;
 }
