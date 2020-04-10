@@ -220,3 +220,10 @@ p.copy {
   font-size: 0.6rem;
   text-align: center;
 }
+
+div.cta-bottom {
+  background: white;
+  position: relative;
+  top: 100px;
+  z-index: 999;
+}
