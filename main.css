@@ -37,6 +37,7 @@ button {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+  text-decoration: none;
 }
 
 header {
@@ -112,4 +113,110 @@ img.mockups {
 }
 .mt-1 {
   margin-top: 1rem;
+}
+
+.mb-5 {
+  margin-bottom: 5rem;
+}
+.mb-4 {
+  margin-bottom: 4rem;
+}
+.mb-3 {
+  margin-bottom: 3rem;
+}
+.mb-2 {
+  margin-bottom: 2rem;
+}
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.card {
+  text-align: center;
+  margin: 20px auto;
+  padding: 10px;
+  max-width: 85%;
+  border-radius: 15px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+.card-title {
+  font-size: 1rem;
+  color: var(--neutral2);
+}
+
+.card-text {
+  color: var(--neutral3);
+  font-size: 0.8rem;
+  line-height: 1.7;
+  opacity: 0.7;
+}
+
+.bottom-section {
+  padding: 25px 15px;
+  background-color: var(--neutral2);
+  color: white;
+}
+
+.bottom-logo {
+  width: 150px;
+}
+
+.location,
+.email,
+.phone {
+  font-size: 0.8rem;
+  line-height: 1.7;
+}
+
+.location::before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  float: left;
+  display: block;
+  margin: 0 20px 0 0;
+  background: url('./images/icon-location.svg') no-repeat;
+}
+
+.phone::before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  float: left;
+  display: block;
+  margin: 0 20px 0 0;
+  background: url('./images/icon-phone.svg') no-repeat;
+}
+
+.email::before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  float: left;
+  display: block;
+  margin: 0 20px 0 0;
+  background: url('./images/icon-email.svg') no-repeat;
+}
+
+.social {
+  width: 100%;
+  text-align: center;
+}
+
+.social i {
+  border: 1px solid white;
+  width: 25px;
+  height: 25px;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 50%;
+  margin: 0 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p.copy {
+  font-size: 0.6rem;
+  text-align: center;
 }
