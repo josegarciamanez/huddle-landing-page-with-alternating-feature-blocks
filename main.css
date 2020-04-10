@@ -227,3 +227,22 @@ div.cta-bottom {
   top: 100px;
   z-index: 999;
 }
+
+@media (min-width: 768px) {
+  header {
+    padding: 20px 50px;
+  }
+
+  img.header-logo {
+    width: 180px;
+  }
+
+  .header-button {
+    padding: 5px 25px;
+    border: none;
+    border-radius: 25px;
+    font-weight: 700;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    font-size: 1rem;
+  }
+}
